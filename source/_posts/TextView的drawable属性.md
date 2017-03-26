@@ -5,7 +5,6 @@ tags: android布局技巧 TextView
 categories: android布局技巧
 ---
 # what
----
 实现Icon+文字在一个视觉元素的需求;
 ### drawable属性
 * android:drawableLeft 图片在文字的左侧  
@@ -18,7 +17,6 @@ categories: android布局技巧
 
 
 # how
----
 		<TextView
       	 	  android:id="@+id/plus_tv"
 				 android:layout_width="400dp"
@@ -37,11 +35,12 @@ categories: android布局技巧
 
 
 # question
----
+
 ### 注意的问题
 * gravity属性只对文字起作用  
 * drawable在其方向上居中显示；
 * 当TextView的宽高属性为wrap_content时，宽高取决于文字和图片的较宽或较高者；
+
 ### 局限性
 * 当drawable的宽高不确定时；例如，drawable为shape时，shape的宽高取决于控件本身的高度；所以shape无法显示；  
 * 当需要对drawable进行单独控制时；
