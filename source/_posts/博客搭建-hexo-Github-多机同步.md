@@ -58,12 +58,14 @@ categories: 博客
 
   2. `hexo command not found`, 使用 `npm install -g hexo` 安装 hexo
 
+  3. 第二台电脑同步部署完成之后，打开网站空白，原因是主题文件家为空，在 `_congif.yml` 中指定的主题不存在. 解决方案,重新 clone 一份
+
 
 ## 最后  
 
  1. 推荐使用 [atom](atom_url) 编辑 md 文件；
+ 
 
----
   [git_url] : (https://www.git-scm.com/download)  
 
   [hexo_url] : (https://hexo.io/zh-cn/docs/index.html)
