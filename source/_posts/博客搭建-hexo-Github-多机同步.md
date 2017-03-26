@@ -24,16 +24,11 @@ categories: 博客
 
  ## [GitHub 仓库创建](github_url)
 
-   1. 创建仓库，命名为 "GitHub Username".github.io; 注意 GitHub Username 必须为 GitHub 的用户名；
-
-   2. 建好之后，该仓库默认有个分支 master (用来存放生成的静态网页), 再创建一个分支命名为 hexo (用来存放生成网站的原始文件)，并将 hexo 分支设置为 默认分支  
-
-   3. 使用 `git clone git@github.com:username/username.github.io.git` 拷贝仓库  
-
-   4. 使用 Git bash 进入本地仓库 username.github.io.git(此时分支应为 hexo )， 依次执行 `npm install hexo`,`hexo init`,`npm install`,`npm install hexo-deployer-git`  
-
+   1. 创建仓库，命名为 "GitHub Username".github.io; 注意 GitHub Username 必须为 GitHub 的用户名
+   2. 建好之后，该仓库默认有个分支 master (用来存放生成的静态网页), 再创建一个分支命名为 hexo (用来存放生成网站的原始文件)，并将 hexo 分支设置为 默认分支
+   3. 使用 `git clone git@github.com:username/username.github.io.git` 拷贝仓库
+   4. 使用 Git bash 进入本地仓库 username.github.io.git(此时分支应为 hexo )， 依次执行 `npm install hexo`,`hexo init`,`npm install`,`npm install hexo-deployer-git`
    5. 修改 `_congig.yml` 的 deploy 参数，分支应为 master ,表示生成的静态网页文件将被推送到 master 分支上；
-
    ```
   deploy:
    type: git
@@ -41,9 +36,7 @@ categories: 博客
    branch: master
 
    ```  
-
    6. 执行 `git add .`,`git commit -m "提交信息"`,`git push origin hexo`
-
    7. 执行 `hexo g -d` 将生成的网站部署到 GitHub 上；
 
 ## 平时维护
