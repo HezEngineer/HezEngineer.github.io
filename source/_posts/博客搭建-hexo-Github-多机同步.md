@@ -7,9 +7,9 @@ categories: 博客
 ---
 # 博客搭建 : hexo + GitHub + 多机同步  
 
-记录 [hexo](hexo_url) 博客搭建及如何实现多机同步；
+记录 [hexo][hexo_url] 博客搭建及如何实现多机同步；
 
- ## [安装 Git](git_url)   
+ ## [安装 Git][git_url]   
 
 安装完后，打开 Git bash , 配置用户名和邮箱
 
@@ -18,11 +18,11 @@ categories: 博客
   $ git config --global user.email William@example.com
   输入 git --version 显示版本号则安装成功
  ```
- ## [安装 Node.js](node_url)  
+ ## [安装 Node.js][node_url]
 
   输入 node -v 和 npm -v，如果显示版本号则安装成功；
 
- ## [GitHub 仓库创建](github_url)
+ ## [GitHub 仓库创建][github_url]
 
    1. 创建仓库，命名为 "GitHub Username".github.io; 注意 GitHub Username 必须为 GitHub 的用户名
    2. 建好之后，该仓库默认有个分支 master (用来存放生成的静态网页), 再创建一个分支命名为 hexo (用来存放生成网站的原始文件)，并将 hexo 分支设置为 默认分支
@@ -56,15 +56,21 @@ categories: 博客
 
 ## 最后  
 
- 1. 推荐使用 [atom](atom_url) 编辑 md 文件；
+ 1. 推荐使用 [atom][atom_url] 编辑 md 文件；
+
+## 参考  
+
+[知乎回答][zhihu_url]
 
 
-  [git_url] : (https://www.git-scm.com/download)  
+  [git_url]: (https://www.git-scm.com/download)  
 
-  [hexo_url] : (https://hexo.io/zh-cn/docs/index.html)
+  [hexo_url]: (https://hexo.io/zh-cn/docs/index.html)
 
-  [github_url] : (https://github.com)  
+  [github_url]: (https://github.com)  
 
-  [node_url] : (https://nodejs.org/en)
+  [node_url]: (https://nodejs.org/en)
 
-  [atom_url] : (https://atom.io)  
+  [atom_url]: (https://atom.io)
+
+  [zhihu_url]:https://www.zhihu.com/question/21193762
