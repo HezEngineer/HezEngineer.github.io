@@ -2,6 +2,7 @@
 title: Jenkin + Git + Gradle 为 Android 项目搭建 CI 环境
 date: 2017-04-06 08:26:08
 tags: 项目管理 自动化构建
+categories: 持续集成
 ---
 
 # [配置Tomcat][tomcat_url]
@@ -31,5 +32,5 @@ tags: 项目管理 自动化构建
 
 
 
- [tomcat_url]: http://tomcat.apache.org/
- [jenkins_url]:https://jenkins.io/
+[tomcat_url]: http://tomcat.apache.org/
+[jenkins_url]:https://jenkins.io/

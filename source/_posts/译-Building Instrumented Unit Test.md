@@ -2,6 +2,7 @@
 title: 译-Testing UI for a Single App
 date: 2017-06-19 13:15:51
 tags: 单元测试 Android
+categories: 翻译
 directory:
 ---
 
@@ -97,6 +98,6 @@ public class ChangeTextBehaviorTest {
     }
 }
 
-```  
+```
 
 ![](https://google.github.io/android-testing-support-library/assets/espresso-cheat-sheet-2.1.0.png)

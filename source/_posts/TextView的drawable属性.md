@@ -2,7 +2,7 @@
 title: TextView的drawable属性
 date: 2016-04-23 08:52:43
 tags: android布局技巧 TextView
-categories: android布局技巧
+categories: android
 ---
 # what
 实现Icon+文字在一个视觉元素的需求;
@@ -18,19 +18,19 @@ categories: android布局技巧
 
 # how
 		<TextView
-      	 	  android:id="@+id/plus_tv"
+	  	 	  android:id="@+id/plus_tv"
 				 android:layout_width="400dp"
-            android:layout_height="wrap_content"
-       		 android:text="加分"
-        	 android:textColor="@android:color/holo_blue_dark"  
-        	 android:textSize="36sp"
-        	 android:textStyle="bold"
-        	 android:typeface="serif"  
-       		 style="?buttonBarButtonStyle"
-    		   android:gravity="center_horizontal"
-        	 android:drawableBottom="@drawable/ic_sentiment_dissatisfied_black_48dp"
-        	 android:drawablePadding="20dp"
-        	 android:drawableTint="@color/colorAccent"/>  
+	        android:layout_height="wrap_content"
+	   		 android:text="加分"
+	    	 android:textColor="@android:color/holo_blue_dark"  
+	    	 android:textSize="36sp"
+	    	 android:textStyle="bold"
+	    	 android:typeface="serif"  
+	   		 style="?buttonBarButtonStyle"
+			   android:gravity="center_horizontal"
+	    	 android:drawableBottom="@drawable/ic_sentiment_dissatisfied_black_48dp"
+	    	 android:drawablePadding="20dp"
+	    	 android:drawableTint="@color/colorAccent"/>  
 
 
 

@@ -2,7 +2,7 @@
 title: '博客搭建 : hexo + GitHub + 多机同步'
 date: 2017-03-26 12:50:02
 tags: hexo
-categories: 博客
+categories: android
 
 ---
 # 博客搭建 : hexo + GitHub + 多机同步  
@@ -35,7 +35,7 @@ categories: 博客
    repo: https://github.com/username/username.github.io.git
    branch: master
 
-   ```  
+   ```
    6. 执行 `git add .`,`git commit -m "提交信息"`,`git push origin hexo`
    7. 执行 `hexo g -d` 将生成的网站部署到 GitHub 上；
 
@@ -63,14 +63,14 @@ categories: 博客
 [知乎回答][zhihu_url]
 
 
-  [git_url]: (https://www.git-scm.com/download)  
+[git_url]: (https://www.git-scm.com/download)
 
-  [hexo_url]: (https://hexo.io/zh-cn/docs/index.html)
+[hexo_url]: (https://hexo.io/zh-cn/docs/index.html)
 
-  [github_url]: (https://github.com)  
+[github_url]: (https://github.com)
 
-  [node_url]: (https://nodejs.org/en)
+[node_url]: (https://nodejs.org/en)
 
-  [atom_url]: (https://atom.io)
+[atom_url]: (https://atom.io)
 
-  [zhihu_url]:https://www.zhihu.com/question/21193762
+[zhihu_url]:https://www.zhihu.com/question/21193762

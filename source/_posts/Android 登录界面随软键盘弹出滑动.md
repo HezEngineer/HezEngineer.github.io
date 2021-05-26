@@ -2,7 +2,7 @@
 title: Android 登录界面随软键盘弹出滑动
 date: 2016-04-23 08:52:43
 tags: android布局 软键盘 Android
-categories: Android
+categories: android
 ---
 
 # Android 登录界面随软键盘弹出滑动

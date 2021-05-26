@@ -2,6 +2,7 @@
 title: 译-Building Local Unit Test
 date: 2017-06-19 13:15:51
 tags: 单元测试 Android
+categories: 翻译
 directory:
 ---
 
@@ -55,7 +56,7 @@ public class EmailValidatorTest {
   3. 为了创建一个模拟对象，需要在变量声明之前添加 @mock 注解；
 
   4. 为了模拟依赖项的行为，我们可以使用 when(condition).thenReturn(value) 方法调用链去指定一个条件并在条件满足的时候
-  返回想要的值；
+    返回想要的值；
 
   下面的例子展示了使用一个 mock 的 Context 对象：
 
@@ -109,7 +110,7 @@ android {
     unitTests.returnDefaultValues = true
   }
 }
-```   
+```
 
 ## 运行单元测试
 

@@ -1,8 +1,8 @@
 ---
 title: training-Graphics&Animation-Bitmaps-1
 date: 2016-04-01 20:08:13
-tags: bitmap
-categories: android
+tags: android
+categories: 翻译
 ---
 
 # Loading large bitmaps efficently
